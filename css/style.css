@@ -1,0 +1,551 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-size: 16px;
+  position: relative;
+  z-index: auto;
+}
+
+/* =================================*/
+/*  search bar area start here */
+.search-form.search-form-active {
+  height: 60px;
+  z-index: 1;
+}
+.search-form {
+  position: relative;
+  width: 100%;
+  z-index: -1;
+  height: 0px;
+  background-color: #1cc3b2;
+  transition-duration: 350ms;
+  transition-timing-function: ease-in;
+}
+.search-form form input {
+  width: 100%;
+  height: 60px;
+  border: none;
+  color: #fff;
+  background-color: transparent;
+}
+.search-form form input:focus {
+  background-color: transparent;
+  border: none;
+}
+.search-form button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  margin: 15px 0;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  text-align: right;
+}
+
+/* =================================*/
+/*  top header area start here */
+.top-header-area {
+  background-color: #0e2737;
+}
+.top-header-phone a {
+  text-decoration: none !important;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 15px;
+}
+.top-header-phone a:hover {
+  text-decoration: none !important;
+  color: #1cc3b2;
+  transition: 0.1s ease-in;
+}
+.top-header-social a {
+  color: #fff;
+  margin-left: 10px;
+}
+.top-header-social a:hover {
+  text-decoration: none !important;
+  color: #1cc3b2;
+  transition: 0.1s ease-in;
+}
+
+/* =================================*/
+/* navbar area start here */
+.navbar ul li a {
+  font-size: 18px;
+}
+.navbar .navbar-brand {
+  font-size: 32px;
+}
+.navbar ul li {
+  margin-left: 20px;
+}
+.navbar ul li .book-btn {
+  margin: 0;
+  padding: 0;
+}
+
+.header-back-1 {
+  width: 100%;
+  height: 600px;
+  background-image: url(../images/Header-Banner.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-back-2 {
+  width: 100%;
+  height: 600px;
+  background-image: url(../images/back2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-back-3 {
+  width: 100%;
+  height: 600px;
+  background-image: url(../images/back3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ==================================== */
+/* Checking area start from here*/
+.checking-area .jumbotron {
+  padding: 2rem !important;
+}
+
+/* ==================================== */
+/* About us area start from here*/
+.about-us .row {
+  margin-top: 120px;
+}
+.about-us h6 {
+  letter-spacing: 2px;
+}
+.about-us h5 {
+  line-height: 1.6;
+  color: #5f5f5f;
+}
+
+.about-img-1 {
+  height: 205px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+  background-image: url(../images/scenic-view-of-the-resort-764827.jpg);
+}
+
+.about-img-2 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 205px;
+  border-radius: 6px;
+  background-image: url(../images/swimming-pool-beside-nipa-hut-751266.jpg);
+}
+.about-img-3 {
+  background-image: url(../images/about-img-3.jpg);
+  height: 415px;
+  border-radius: 6px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ==================================== */
+/* Service area start from here*/
+.service {
+  margin-top: 50px;
+}
+.service i {
+  size: 5px;
+}
+.service h5 {
+  color: #0e2737;
+}
+.service h5:hover {
+  color: #1cc3b2;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+/* ==================================== */
+/* Best room area start from here*/
+.best-room {
+  margin-top: 120px;
+}
+.best-room-img {
+  width: 100%;
+  height: 650px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/best-room-1.jpg);
+}
+.best-room-img-2 {
+  width: 100%;
+  height: 650px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/best-room-2.jpg);
+}
+.best-room-img-3 {
+  width: 100%;
+  height: 650px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/best-room-3.jpg);
+}
+.best-room-text {
+  height: 650px;
+  background-color: #0e2737;
+}
+
+/* ==================================== */
+/* Review area start from here*/
+.review {
+  margin-top: 100px;
+}
+.review .review-images img {
+  width: 100%;
+  height: auto;
+}
+.review-text h6 {
+  letter-spacing: 2px;
+}
+.review-text h5 {
+  line-height: 1.6;
+  color: #5f5f5f;
+}
+/* ==================================== */
+/* project area start from here*/
+.project-area {
+  height: 600px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.project-img-1 {
+  background-image: url(../images/project-img.jpg);
+  width: 100%;
+  height: 600px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project-img-2 {
+  background-image: url(../images/project-img-2.jpg);
+  width: 100%;
+  height: 600px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project-img-3 {
+  background-image: url(../images/project-img-3.jpg);
+  width: 100%;
+  height: 600px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project-img-4 {
+  background-image: url(../images/project-img-4.jpg);
+  width: 100%;
+  height: 600px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-area .hover-effect {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.project-area .hover-effect .project-hvr-text {
+  background-color: #7997fa21;
+  color: #ebebeb;
+  padding: 30px 20px;
+}
+.project-area .hover-effect .project-hvr-text.hrv-active {
+  height: auto;
+  z-index: 1;
+}
+.project-area .hover-effect .project-content {
+  background-color: #1c94c331;
+  color: #ebebeb;
+  padding: 30px 0 30px 15px;
+  text-align: center;
+}
+.project-area .hover-effect .project-content:hover {
+  background-color: transparent;
+  transition: 0.8s ease;
+  cursor: pointer;
+}
+.project-area .hover-effect .project-content a {
+  color: #ebebeb;
+  text-decoration: none;
+}
+.blog-area {
+  margin-top: 100px;
+}
+
+/* ==================================== */
+/* contact area start from here*/
+.contact {
+  background-image: url(../images/contact-banner.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 200px;
+}
+
+.contact-margin-top {
+  margin-top: 50px;
+}
+.contact button {
+  margin-top: 25px;
+}
+
+/* ==================================== */
+/* footer area start from here*/
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #0e2737;
+  margin-top: 50px;
+}
+.footer .footer-blog h6 a {
+  color: #cacaca;
+  text-decoration: none;
+}
+.footer .footer-blog h6 a:hover {
+  color: #1c94c3;
+  transition: 0.2s ease-in;
+}
+.footer .footer-link a {
+  color: #cacaca;
+  text-decoration: none;
+}
+.footer .footer-link a:hover {
+  color: #1c94c3;
+  transition: 0.2s ease-in;
+}
+.footer .footer-social a {
+  color: #cacaca;
+  text-decoration: none;
+}
+.footer .footer-social a:hover {
+  color: #1c94c3;
+  transition: 0.2s ease-in;
+}
+
+/* ================================== */
+/* owl header area carousel start */
+.owl-theme .owl-nav [class*="owl-"] {
+  transition: all 0.3s ease;
+}
+
+#back.owl-theme .owl-next,
+#back.owl-theme .owl-prev {
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+  background-color: #ebebeb;
+}
+#back.owl-theme .owl-next:hover,
+#back.owl-theme .owl-prev:hover {
+  color: #ebebeb;
+  background-color: #0e2737;
+}
+#back.owl-theme .owl-prev {
+  left: 10px;
+  z-index: 1;
+}
+#back.owl-theme .owl-next {
+  right: 10px;
+  z-index: 1;
+}
+/* owl header area carousel end */
+
+/*  owl best room area carousel start */
+#best-room-owl.owl-theme .owl-prev {
+  width: 130px;
+  height: 50px;
+  position: absolute;
+  bottom: 0%;
+  background-color: #ffffff;
+  color: #0e2737;
+  margin: 0;
+  border-radius: 0;
+}
+#best-room-owl.owl-theme .owl-next {
+  width: 130px;
+  height: 50px;
+  position: absolute;
+  bottom: 0%;
+  background-color: #1c94c3;
+  margin: 0;
+  border-radius: 0;
+  color: #ebebeb;
+}
+#best-room-owl.owl-theme .owl-next:hover {
+  color: #ebebeb;
+  background-color: #5f5f5f;
+}
+#best-room-owl.owl-theme .owl-prev:hover {
+  color: #ebebeb;
+  background-color: #0e2737;
+}
+#best-room-owl.owl-theme .owl-prev {
+  right: 50%;
+  z-index: 1;
+}
+#best-room-owl.owl-theme .owl-next {
+  left: 50%;
+  z-index: 1;
+}
+/* =================================*/
+/*  owl best room area carousel end */
+
+#review-text-owl.owl-theme .owl-dots {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbar .nav-link {
+    font-size: 14px;
+  }
+  .best-room-text {
+    height: 650px;
+  }
+  .best-room-text h1 {
+    font-size: 24px;
+  }
+  .best-room-text h2 {
+    font-size: 24px;
+  }
+  .best-room-text i {
+    display: none;
+  }
+  .best-room-text h6 {
+    font-size: 14px;
+  }
+}
+
+/* =================================*/
+/* =================================*/
+/* 768 Responsive area start here */
+@media only screen and (max-width: 768px) {
+  .best-room-text {
+    height: 650px;
+  }
+  .best-room-text h1 {
+    font-size: 24px;
+  }
+  .best-room-text h2 {
+    font-size: 24px;
+  }
+  .best-room-text i {
+    display: none;
+  }
+  .best-room-text h6 {
+    font-size: 14px;
+  }
+
+  .review .review-images {
+    margin: 60px 0;
+  }
+  .review .review-text h1 {
+    font-size: 28px;
+  }
+  .review .review-text h5 {
+    font-size: 18px;
+  }
+  .contact h1 {
+    font-size: 30px;
+  }
+  .contact button {
+    margin-top: 25px;
+  }
+  .footer h4 {
+    font-size: 16px;
+  }
+  .footer h6,
+  p,
+  a {
+    font-size: 14px;
+  }
+}
+
+/* =================================*/
+/* =================================*/
+/* 425 Responsive area start here */
+
+@media only screen and (max-width: 425px) {
+  /* =================================*/
+  /* top header area start here */
+  .top-header-phone a {
+    margin-left: 0;
+  }
+
+  .best-room {
+    margin-top: 70px;
+  }
+  .best-room-img,
+  .best-room-img-2,
+  .best-room-img-3 {
+    height: 350px;
+  }
+  .best-room-text {
+    height: 450px;
+  }
+  .best-room-text h1,
+  .best-room-text h2 {
+    margin-left: 25px;
+    font-size: 24px;
+  }
+
+  .best-room-text i {
+    display: none;
+  }
+  .best-room-text h6 {
+    margin-left: 25px;
+    font-size: 14px;
+  }
+  .best-room-text button {
+    margin-left: 25px;
+  }
+  .review {
+    margin: 15px 0;
+  }
+  .review .review-text {
+    padding-left: 25px;
+  }
+  .contact {
+    text-align: center;
+  }
+  .footer .form-inline button {
+    position: absolute;
+    bottom: 9%;
+    right: 35%;
+  }
+}
